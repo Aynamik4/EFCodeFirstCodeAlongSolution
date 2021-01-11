@@ -1,5 +1,5 @@
-﻿// Install NuGetPackages:
-// ======================
+﻿// Install NuGet Packages:
+// =======================
 // Microsoft.EntityFrameworkCore.SqlServer
 // Microsoft.EntityFrameworkCore.Tools
 

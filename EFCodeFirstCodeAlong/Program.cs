@@ -17,7 +17,8 @@
 
 // Skapa en appsettings.json i roten. Add -> New Item -> "JavaScript JSON Configuration File"
 // Denna kan sedan användas för att lagra SqlConnectionString
-// Copy to output directory måste sättas (h-klick på appsettings.json -> properties)
+// Copy to output directory måste sättas (h-klick på appsettings.json -> properties) och välj
+// "Copy Always" eller "Copy if newer".
 
 // Uppdatera ändringar i Models mappan (EFContext, Product, Customer).
 // PM> Add-Migration "Ver2"

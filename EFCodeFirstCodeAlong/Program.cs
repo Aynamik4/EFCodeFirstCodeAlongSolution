@@ -4,10 +4,12 @@
 // Microsoft.EntityFrameworkCore.Tools
 
 // Create the Models folder. Then create the EFContext and the Product classes in the Models folder..
+// Note: The name of the database is determined by the "Database=" parameter in the connection string (see the appsettings.json file).
+// Note: At a minimum the Context class (EFContext.cs) must inherit DbContext and override the OnConfiguring method.
 
 // Package Manager Console supports [Tab]. Type "Add" + [Tab]
-// PM> Add-Migration "NewDatabase" (Creates the Migrations folder).
 
+// PM> Add-Migration "NewDatabase" (Creates the Migrations folder).
 // PM> Update-Database (Creates the SQL Server Database)
 
 // Dessa NuGets fordras för att få det att funka med appsettings.json.

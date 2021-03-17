@@ -9,6 +9,11 @@ namespace EFCodeFirstCodeAlong.Models
         public int Id { get; set; }
         public string CustomerName { get; set; }
         public string PhoneNumber { get; set; }
-        public ICollection<CustomerAddress> CustomerAddress { get; set; }
+        public ICollection<CustomerAddress> CustomerAddresses { get; set; }
+
+        public Customer()
+        {
+            CustomerAddresses = new List<CustomerAddress>();
+        }
     }
 }

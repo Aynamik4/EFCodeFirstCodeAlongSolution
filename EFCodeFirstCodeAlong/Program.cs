@@ -1,4 +1,4 @@
-﻿// Install NuGet Packages:
+﻿// Install NuGet Packages: (.NET Core 3.1)
 // =======================
 // Microsoft.EntityFrameworkCore.SqlServer
 // Microsoft.EntityFrameworkCore.Tools

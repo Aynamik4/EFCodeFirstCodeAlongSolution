@@ -1,4 +1,4 @@
-﻿// Install NuGet Packages: (.NET Core 3.1)
+﻿// Install NuGet Packages:
 // =======================
 // Microsoft.EntityFrameworkCore.SqlServer
 // Microsoft.EntityFrameworkCore.Tools
@@ -10,7 +10,7 @@
 // Package Manager Console supports [Tab]. Type "Add" + [Tab]
 
 // PM> Add-Migration "NewDatabase" (Creates a Migrations folder in the project containg a file with a class named "NewDatabase").
-// PM> Update-Database (Creates the SQL Server Database)
+// PM> Update-Database (Creates or updates the SQL Server Database)
 
 // Dessa NuGets fordras för att få det att funka med appsettings.json.
 // PM> Install-Package Microsoft.Extensions.Configuration
